@@ -1,5 +1,5 @@
 php-psr-log (1.0.0-1) unstable; urgency=low
 
-  * Initial release (Closes: #111) 
+  * Initial release (Closes: #726277) 
 
  -- François-Régis Vuillemin <frv-debian@miradou.com>  Wed, 05 Feb 2014 12:14:23 +0100
