@@ -1,0 +1,3 @@
+phpcomposer:name=psr/log
+phpcomposer:description=Common interface for logging libraries
+misc:Depends=
