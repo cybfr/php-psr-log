@@ -5,12 +5,12 @@ Maintainer: François-Régis Vuillemin <frv-debian@miradou.com>
 Build-Depends: debhelper (>= 9.0.0), pkg-php-tools (>= 1.7~)
 Standards-Version: 3.9.5
 Homepage: https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-3-logger-interface.md
-Vcs-Git: git://github.com/cybfr/php-psr-log.git
-Vcs-Browser: https://github.com/cybfr/php-psr-log
+Vcs-Git: git://anonscm.debian.org/pkg-php/php-psr-log
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-php/php-psr-log.git
 
 Package: php-psr-log
 Architecture: all
-Depends:  php5 | php5-cli, ${misc:Depends}
+Depends: php5 | php5-cli, ${misc:Depends}
 Description: common interface for logging libraries
  The main goal is to allow libraries to receive a Psr\Log\LoggerInterface object
  and write logs to it in a simple and universal way. Frameworks and CMSs that
